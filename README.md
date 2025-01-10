@@ -1,9 +1,9 @@
 # Financial-Data-Aggregator-and-Visualizer
-# Overview 
+## Overview 
 
 The Financial Data Aggregator and Visualizer is a tool designed to fetch, aggregate, and visualize financial data for analysis. This project leverages APIs to retrieve real-time stock market data, processes it using cloud technologies, and provides insightful visualizations.
 
-# Features
+## Features
 
 Real-Time Data Fetching: Uses APIs (e.g., Alpha Vantage, Finnhub) to fetch stock market data.
 
@@ -15,7 +15,7 @@ Visualization: Displays metrics like P&L, balance sheet trends, and capital allo
 
 Extensibility: Can integrate with Snowflake and other cloud solutions for advanced analytics.
 
-# Technologies Used
+## Technologies Used
 
 Python: Data fetching, aggregation, and visualization.
 
@@ -29,7 +29,7 @@ Apache Spark: High-speed data aggregation.
 
 AWS S3: Cloud storage.
 
-# Installation
+## Installation
 
 Prerequisites
 
@@ -41,7 +41,7 @@ Kaggle API for dataset access
 
 Steps
 
-# Clone the repository:
+## Clone the repository:
 
 git clone https://github.com/yourusername/financial-data-aggregator.git
 cd financial-data-aggregator
@@ -87,7 +87,7 @@ Run the visualization script to generate plots:
 
 python visualize_data.py
 
-# File Structure
+## File Structure
 
 financial-data-aggregator/
 |├── fetch_data.py          # Script to fetch stock data using APIs
@@ -97,10 +97,10 @@ financial-data-aggregator/
 |├── README.md            # Project documentation
 |└── data/                # Directory for storing raw and processed data
 
-# Contributions
+## Contributions
 
 Contributions are welcome! Please fork the repository and create a pull request for any improvements or new features.
 
-# License
+## License
 
 This project is licensed under the MIT License. See LICENSE for details.
